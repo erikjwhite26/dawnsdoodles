@@ -16,7 +16,7 @@ export class NgbdTabsetAboutMe {
         this.getMessages();
     }
     getMessages() {
-        this._messageService.getMessages('./app/tabs/aboutme/aboutme-messages.json').subscribe(
+        this._messageService.getMessages('assets/aboutme-messages.json').subscribe(
         data => { this.messages = data},
         err => { this.messages_error = true }
         );

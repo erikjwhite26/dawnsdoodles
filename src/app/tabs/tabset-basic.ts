@@ -16,7 +16,7 @@ export class NgbdTabsetBasic {
   }
 
   getMessages() {
-    this._messageService.getMessages('./app/tabs/home/home-messages.json').subscribe(
+    this._messageService.getMessages('assets/home-messages.json').subscribe(
       data => { this.messages = data},
       err => { this.messages_error = true }
     );

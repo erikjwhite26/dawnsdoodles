@@ -13,7 +13,7 @@ export class DoodleService {
  
   // Uses http.get() to load a single JSON file
   getDoodles() {
-    return this.http.get('/app/tabs/doodles/doodles.json').map((res:Response) => res.json());
+    return this.http.get('assets/doodles.json').map((res:Response) => res.json());
   }
 
 }

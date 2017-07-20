@@ -5,7 +5,7 @@ import {Component} from '@angular/core';
   templateUrl: './tabset-contract.html'
 })
 export class NgbdTabsetContract {
-    pdfSrc: string = "./app/imgs/PuppyContract.pdf";
+    pdfSrc: string = "assets/PuppyContract.pdf";
     page: number = 1;
     firstPage: boolean = true;
 
