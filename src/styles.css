@@ -16,10 +16,13 @@ body {
 }
 #doodle-img-0 {
   transform:rotate(0deg);
+  -webkit-transform:rotate(0deg);
 }
 #doodle-img-90 {
   transform:rotate(90deg);
+  -webkit-transform: rotate(90deg);
 }
 #doodle-img-270 {
   transform:rotate(-90deg);
+  -webkit-transform: rotate(-90deg);
 }
