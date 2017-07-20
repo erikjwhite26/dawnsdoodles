@@ -1,0 +1,23 @@
+<ngb-accordion #acc="ngbAccordion" [closeOthers]="true" activeIds="panel-1">
+  <ngb-panel id="panel-1" title="How I Began">
+    <ng-template ngbPanelContent>
+        <div *ngFor="let message of messages">
+            <p *ngIf="message.id=='began'">{{message.message}}</p>
+        </div>
+    </ng-template>
+  </ngb-panel>
+  <ngb-panel id="panel-2" title="The Doodle">
+    <ng-template ngbPanelContent>
+        <div *ngFor="let message of messages">
+            <p *ngIf="message.id=='doodle'">{{message.message}}</p>
+        </div>
+    </ng-template>
+  </ngb-panel>
+  <ngb-panel id="panel-3" title="Care">
+    <ng-template ngbPanelContent>
+        <div *ngFor="let message of messages">
+            <p *ngIf="message.id=='care'">{{message.message}}</p>
+        </div>
+    </ng-template>
+  </ngb-panel>
+</ngb-accordion>

@@ -1,0 +1,11 @@
+<br/>
+<div class="container-fluid">
+    <div class="row">
+    <a class="col-xs-4 col-sm-3 btn btn-primary" target="_self" [href]="pdfSrc" [download]="pdfSrc">Download</a>
+    <div class="col-xs-0 col-sm-3"></div>
+    <button class="col-xs-4 col-sm-3 btn btn-warning" (click)="previousPage()" [disabled]="firstPage">Previous</button>
+    <button class="col-xs-3 col-sm-3 btn btn-warning" (click)="nextPage()" [disabled]="!firstPage">Next</button>
+    </div>
+</div>
+<br/>
+<pdf-viewer [src]="pdfSrc" [page]="page" [original-size]="false" style="display:block"></pdf-viewer>

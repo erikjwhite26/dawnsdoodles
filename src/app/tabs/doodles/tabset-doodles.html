@@ -1,0 +1,16 @@
+<br/>
+<div *ngFor="let message of messages">
+  <p style="text-align:center">{{message.message}}</p>
+</div>
+<div *ngIf="doodles_error">An error occurred while loading the doodles!</div>
+<ngb-carousel>
+  <ng-template ngbSlide *ngFor="let doodle of doodles" [id]="doodle.id">
+    <img *ngIf="doodle.rotate=='0deg'" id="doodle-img-0" style="height: 100%; width: 100%; object-fit: contain;" [src]="doodle.images[0]" alt="{{doodle.name}}" />
+    <img *ngIf="doodle.rotate=='90deg'" id="doodle-img-90" style="height: 100%; width: 100%; object-fit: contain;" [src]="doodle.images[0]" alt="{{doodle.name}}" />
+    <img *ngIf="doodle.rotate=='-90deg'" id="doodle-img-270" style="height: 100%; width: 100%; object-fit: contain;" [src]="doodle.images[0]" alt="{{doodle.name}}" />
+    <div class="carousel-caption">
+      <h3>{{doodle.name}}</h3>
+      <p>{{doodle.description}}</p>
+    </div>
+  </ng-template>
+</ngb-carousel>

@@ -1,0 +1,36 @@
+<ngb-tabset>
+  <ngb-tab>
+    <ng-template ngbTabTitle><b>Home</b></ng-template>
+    <ng-template ngbTabContent>
+      <br/>
+      <div *ngFor="let message of messages">
+        <p style="text-align:center">{{message.message}}</p>
+      </div>
+      <home-map></home-map>
+    </ng-template>
+  </ngb-tab>
+  <ngb-tab>
+    <ng-template ngbTabTitle><b>Doodles</b></ng-template>
+    <ng-template ngbTabContent>
+      <ngbd-tabset-doodles></ngbd-tabset-doodles>
+    </ng-template>
+  </ngb-tab>
+  <ngb-tab>
+    <ng-template ngbTabTitle><b>About Me</b></ng-template>
+    <ng-template ngbTabContent>
+      <ngbd-tabset-aboutme></ngbd-tabset-aboutme>
+    </ng-template>
+  </ngb-tab>
+  <ngb-tab>
+    <ng-template ngbTabTitle><b>Contract</b></ng-template>
+    <ng-template ngbTabContent>
+      <ngbd-tabset-contract></ngbd-tabset-contract>
+    </ng-template>
+  </ngb-tab>
+  <ngb-tab>
+    <ng-template ngbTabTitle><b>Contact</b></ng-template>
+    <ng-template ngbTabContent>
+      <ngbd-tabset-contact></ngbd-tabset-contact>
+    </ng-template>
+  </ngb-tab>
+</ngb-tabset>
