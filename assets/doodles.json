@@ -1,0 +1,218 @@
+[
+    {
+        "id":1,
+        "name":"Willy",
+        "description":"AKC Dark Apricot Poodle Stud",
+        "rotate":"0deg",
+        "images": [
+            "assets/willy1.jpg"
+        ]
+    },
+    {
+        "id":2,
+        "name":"Gemma",
+        "description":"AKC Golden Retriever Mom",
+        "rotate":"0deg",
+        "images": [
+            "assets/gemma1.jpg"
+        ]
+    },
+    {
+        "id":3,
+        "name":"Elle",
+        "description":"AKC Golden Retriever Mom",
+        "rotate":"90deg",
+        "images": [
+            "assets/elle1.jpg"
+        ]
+    },
+    {
+        "id":4,
+        "name":"Pixie",
+        "description":"AKC White Poodle Mom",
+        "rotate":"0deg",
+        "images": [
+            "assets/pixie1.jpg"
+        ]
+    },
+    {
+        "id":5,
+        "name":"",
+        "description":"",
+        "rotate":"0deg",
+        "images": [
+            "assets/puppies1.jpg"
+        ]
+    },
+    {
+        "id":6,
+        "name":"",
+        "description":"",
+        "rotate":"0deg",
+        "images": [
+            "assets/puppies2.jpg"
+        ]
+    },
+    {
+        "id":7,
+        "name":"",
+        "description":"",
+        "rotate":"0deg",
+        "images": [
+            "assets/puppies3.jpg"
+        ]
+    },
+    {
+        "id":8,
+        "name":"",
+        "description":"",
+        "rotate":"-90deg",
+        "images": [
+            "assets/puppies4.jpg"
+        ]
+    },
+    {
+        "id":9,
+        "name":"",
+        "description":"",
+        "rotate":"0deg",
+        "images": [
+            "assets/puppies5.jpg"
+        ]
+    },
+    {
+        "id":10,
+        "name":"",
+        "description":"",
+        "rotate":"0deg",
+        "images": [
+            "assets/puppies6.jpg"
+        ]
+    },
+    {
+        "id":11,
+        "name":"",
+        "description":"",
+        "rotate":"0deg",
+        "images": [
+            "assets/puppies7.jpg"
+        ]
+    },
+    {
+        "id":12,
+        "name":"",
+        "description":"",
+        "rotate":"-90deg",
+        "images": [
+            "assets/puppies8.jpg"
+        ]
+    },
+    {
+        "id":13,
+        "name":"",
+        "description":"",
+        "rotate":"0deg",
+        "images": [
+            "assets/puppies9.jpg"
+        ]
+    },
+    {
+        "id":14,
+        "name":"",
+        "description":"",
+        "rotate":"90deg",
+        "images": [
+            "assets/puppies10.jpg"
+        ]
+    },
+    {
+        "id":15,
+        "name":"",
+        "description":"",
+        "rotate":"90deg",
+        "images": [
+            "assets/puppies11.jpg"
+        ]
+    },
+    {
+        "id":16,
+        "name":"",
+        "description":"",
+        "rotate":"90deg",
+        "images": [
+            "assets/puppies12.jpg"
+        ]
+    },
+    {
+        "id":17,
+        "name":"",
+        "description":"",
+        "rotate":"90deg",
+        "images": [
+            "assets/puppies13.jpg"
+        ]
+    },
+    {
+        "id":18,
+        "name":"",
+        "description":"",
+        "rotate":"90deg",
+        "images": [
+            "assets/puppies14.jpg"
+        ]
+    },
+    {
+        "id":19,
+        "name":"",
+        "description":"",
+        "rotate":"90deg",
+        "images": [
+            "assets/puppies15.jpg"
+        ]
+    },
+    {
+        "id":20,
+        "name":"",
+        "description":"",
+        "rotate":"90deg",
+        "images": [
+            "assets/puppies16.jpg"
+        ]
+    },
+    {
+        "id":21,
+        "name":"",
+        "description":"",
+        "rotate":"90deg",
+        "images": [
+            "assets/puppies17.jpg"
+        ]
+    },
+    {
+        "id":22,
+        "name":"",
+        "description":"",
+        "rotate":"90deg",
+        "images": [
+            "assets/puppies18.jpg"
+        ]
+    },
+    {
+        "id":23,
+        "name":"",
+        "description":"",
+        "rotate":"90deg",
+        "images": [
+            "assets/puppies19.jpg"
+        ]
+    },
+    {
+        "id":24,
+        "name":"",
+        "description":"",
+        "rotate":"0deg",
+        "images": [
+            "assets/puppies20.jpg"
+        ]
+    }
+]
