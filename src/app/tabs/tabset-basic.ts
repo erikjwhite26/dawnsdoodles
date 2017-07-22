@@ -7,7 +7,8 @@ import {Message} from './message';
   templateUrl: './tabset-basic.html'
 })
 export class NgbdTabsetBasic { 
-  public identifier: String = 'erikjwhite26.github.io/dawnsdoodles/';
+  public identifier: String = 'dawnsdoodles';
+  public url: String = 'https://erikjwhite26.github.io/dawnsdoodles/';
   public messages: Message[];
   public messages_error: Boolean = false;
   constructor(private _messageService: MessageService){ }
