@@ -16,6 +16,12 @@
     </ng-template>
   </ngb-tab>
   <ngb-tab>
+    <ng-template ngbTabTitle><b>Comments</b></ng-template>
+    <ng-template ngbTabContent>
+      <disqus [identifier]="identifier"></disqus>
+    </ng-template>
+  </ngb-tab>
+  <ngb-tab>
     <ng-template ngbTabTitle><b>About Me</b></ng-template>
     <ng-template ngbTabContent>
       <ngbd-tabset-aboutme></ngbd-tabset-aboutme>

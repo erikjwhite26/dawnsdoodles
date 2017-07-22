@@ -13,12 +13,14 @@ import { NgbdTabsetAboutMe } from './tabs/aboutme/tabset-aboutme';
 import { HomeMap } from './tabs/home/home-map';
 import { DoodleService } from './tabs/doodles/doodle.service';
 import { MessageService } from './tabs/message.service';
+import { DisqusModule } from 'ngx-disqus';
+import { ImageUploadModule } from 'angular2-image-upload';
 
 
 import { AppComponent }  from './app.component';
 
 @NgModule({
-  imports:      [ BrowserModule, FormsModule, ReactiveFormsModule, JsonpModule, HttpModule, NgbModule.forRoot(), 
+  imports:      [ BrowserModule, FormsModule, ReactiveFormsModule, JsonpModule, HttpModule, DisqusModule.forRoot('dawnsdoodles.disqus.com'), ImageUploadModule.forRoot(), NgbModule.forRoot(), 
   AgmCoreModule.forRoot({apiKey:'AIzaSyDDkegeMhFu2_o9NyrCWiUZbKmXhtrPqq0'}) ],
   declarations: [ AppComponent, NgbdTabsetBasic, NgbdTabsetDoodles, NgbdTabsetContact, NgbdTabsetContract, NgbdTabsetAboutMe, HomeMap, PdfViewerComponent ],
   providers:    [ DoodleService, MessageService ],
