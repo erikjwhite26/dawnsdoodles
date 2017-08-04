@@ -7,8 +7,8 @@ import {Message} from './message';
   templateUrl: './tabset-basic.html'
 })
 export class NgbdTabsetBasic { 
-  public identifier: String = 'erikjwhite26.github.io/dawnsdoodles/';
-  public url: String = 'erikjwhite26.github.io/dawnsdoodles/';
+  public identifier: String = 'dawnsdoodles.com';
+  public url: String = 'dawnsdoodles.com';
   public messages: Message[];
   public messages_error: Boolean = false;
   constructor(private _messageService: MessageService){ }
@@ -18,7 +18,7 @@ export class NgbdTabsetBasic {
   }
 
   getMessages() {
-    this._messageService.getMessages('assets/home-messages.json').subscribe(
+    this._messageService.getMessages('http://dawnsdoodles.com/assets/home-messages.json').subscribe(
       data => { this.messages = data},
       err => { this.messages_error = true }
     );
