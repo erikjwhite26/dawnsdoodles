@@ -26,7 +26,7 @@ export class NgbdTabsetContact {
         this.getMessages();
     }
     getMessages() {
-        this._messageService.getMessages('assets/contact-messages.json').subscribe(
+        this._messageService.getMessages('http://dawnsdoodles.com/assets/contact-messages.json').subscribe(
         data => { this.messages = data},
         err => { this.messages_error = true }
         );

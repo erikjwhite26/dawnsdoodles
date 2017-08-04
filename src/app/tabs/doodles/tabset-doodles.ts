@@ -35,7 +35,7 @@ export class NgbdTabsetDoodles {
   }
 
   getMessages() {
-    this._messageService.getMessages('assets/doodle-messages.json').subscribe(
+    this._messageService.getMessages('http://dawnsdoodles.com/assets/doodle-messages.json').subscribe(
       data => { this.messages = data},
       err => { this.messages_error = true }
     );
